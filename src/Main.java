@@ -9,11 +9,11 @@ public class Main {
 
         var frog = 3.5;
         System.out.println(frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println(frog);
-        frog = frog / 3.5;
+        frog /= 3.5;
         System.out.println(frog);
-        frog = frog + 4;
+        frog += 4;
         System.out.println(frog);
     }
 }
